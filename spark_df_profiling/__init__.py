@@ -72,7 +72,7 @@ class ProfileReport(object):
         return self.html
 
     def __str__(self):
-        return "Output written to file " + str(self.file.name)
+        return "Output written to file " # + str(self.file.name)
 
 
 
